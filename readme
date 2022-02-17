@@ -1,7 +1,11 @@
 README FOR RUNNING COMPOSE FILE:
 
-For running the compose execute the below command:
+kindly build the docker image initially
+cd Backenddemoproject and 
 
+docker build -t image1 .
+
+For running the compose execute the below command:
 sudo docker-compose -f docker_compose.yml up
 
 for stopping the containers
